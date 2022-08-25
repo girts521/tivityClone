@@ -1,0 +1,38 @@
+.container{
+    width: 80%;
+    padding: 50px 8px;
+    background-color: #6344f7;
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-bottom: 140px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+
+        .text{
+            margin-bottom: 25px;
+        }
+
+        :last-child{
+            margin-bottom: 0;
+        }
+    }
+
+    .text{
+        color: white;
+        font-size: 18px;
+        padding: 0 24px;
+       
+        h2{
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+    }
+
+}
